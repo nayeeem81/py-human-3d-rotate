@@ -12,6 +12,9 @@ py-human-3d-rotate/
 
 ------------------------------
 ## Step 1: The Flask Backend (app.py)
+
+[YouTube Video](https://youtu.be/KEzASdPTalE?si=jESuyd1dtZSnLPpn)
+
 To represent the complex geometry of a human face without forcing you to copy and paste thousands of lines of raw coordinate numbers, we can use a Parametric Mathematical Model Tensor inside Python.
 By applying overlapping mathematical distributions (specifically Gaussian functions) to a baseline 3D mesh grid, we can algorithmically deform the tensor to create clear feminine landmarks: a defined nose bridge and tip, hollowed eye sockets, contoured cheeks, a subtle mouth protrusion, and a tapered jawline.
 We will also implement the Painter's Algorithm (sorting surfaces by depth) in Python so that when the face rotates, the foreground features cleanly mask the background features without graphical glitches.
