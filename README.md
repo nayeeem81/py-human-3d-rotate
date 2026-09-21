@@ -1,3 +1,6 @@
+<img width="1082" height="671" alt="tensor-lens-adjusted (55)" src="https://github.com/user-attachments/assets/4a4bbd03-3a49-41c3-acec-e8cfc028c2ff" />
+
+
 To combine HTML/CSS (Flexbox), and Python (Flask), you will use a Client-Server Architecture.
 Instead of running the heavy tensor math on your Python server, the Flask backend acts as a data engine that loads and serves your raw 3D model data. The HTML frontend uses JavaScript to perform the rotations and surface-normal color rendering directly inside the user's web browser in real-time.
 ------------------------------
